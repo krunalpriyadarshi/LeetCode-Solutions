@@ -4,4 +4,4 @@ In loop, "StringBuilder" is better to use inplace of String Concatenation:
             String Concatenation:
                 String str= a+ b+ c; //a,b,c are string variable.
             StringBuilder: 
-                StringBuilder str.append(a+ b +c).append(" ");
+                StringBuilder str.append(a).append(b).append(c).append(" ");
