@@ -6,6 +6,8 @@ In loop, "StringBuilder" is better to use inplace of String Concatenation:
             StringBuilder: 
                 StringBuilder str.append(a).append(b).append(c).append(" ");
 
+        // using setLength(0) to reset the StringBuilder or creating a new one in each iteration.
+        
 Make sure to close "scanner" at the end.
         Scanner sc= new Scannner();
         sc.close();
