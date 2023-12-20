@@ -17,3 +17,6 @@ equals("") could throw a NullPointerException if the string is null.
         String str = null;
         System.out.println(str.isEmpty());      // No exception, prints 'true'
         System.out.println(str.equals(""));     // NullPointerException
+
+A substring of a string is a contiguous block of characters in the string
+        ex., the substrings of abc are a, b, c, ab, bc, and abc.
