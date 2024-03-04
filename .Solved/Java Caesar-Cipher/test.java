@@ -19,6 +19,6 @@ class test {
         }
     
     public static void main(String args[]) {
-        System.out.println(caesarCipher("", 2));
+        System.out.println(caesarCipher("abcdefghijklmnopqrstuvwxyz", 2));
     }
 }
