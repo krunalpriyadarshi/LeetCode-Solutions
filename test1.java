@@ -1,10 +1,9 @@
 import java.util.Hashtable;
 
-class Solution {
-
-    
-    public static void main(String[] args){
-        System.out.println("hi");
+public class test1 {
+   
+    public static void main(String[] args) {
+       System.out.println("hi");
         String order= "abcd";
         Hashtable<Character, Integer> hash= new Hashtable<Character, Integer>();
     
@@ -14,7 +13,7 @@ class Solution {
 
         hash.put('a', (hash.containsKey('a'))?hash.get('a')+ 1:999);
 
-        System.out.println(hash);
+        System.out.println(hash.toString());
 
     }
 }

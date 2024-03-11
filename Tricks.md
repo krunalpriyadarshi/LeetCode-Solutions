@@ -14,6 +14,9 @@
  // Getting the list view of Array
 List<Integer> list = Arrays.asList(a);
 
+list??
+HashSet????
+LinkedHashMap???
 
 
 binary serach:
