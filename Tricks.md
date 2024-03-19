@@ -11,6 +11,13 @@ HashSet????
 LinkedHashMap???
 arrays.fill(arr, start, end, val);????
 
+Longest Subsequence -------
+
+
+
+biotonic means "Initially a sequence of numbers is in incresing order; however, beyond a certain point, it begins to decrease."
+
+
 
 binary serach:
   arr[]= {1, 2, 3, 4, 5};
