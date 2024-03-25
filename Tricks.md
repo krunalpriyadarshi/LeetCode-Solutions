@@ -5,9 +5,11 @@ List<Integer> list = Arrays.asList(a);
 
 d % 1 == 0    --- checks if double has decimal points.
   
+to-do : LL 234
 
 list??
 HashSet????
+HashMap??
 LinkedHashMap???
 arrays.fill(arr, start, end, val);????
 BIGintergers???????

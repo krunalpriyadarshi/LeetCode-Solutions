@@ -1,39 +1,17 @@
-class Container{
-    public int liquid;
-
-    public Container(){
-        liquid= 0;
-    }
-
-    public int contains(){
-        return this.liquid;
-    }
-
-    public void add(int amount){
-        if(amount> 0){
-            this.liquid+= amount; 
-            if(this.liquid> 100) this.liquid= 100;
-        }
-    }
-
-    public void remove(int amount){
-        this.liquid-= amount;
-        if(this.liquid< 0){
-            this.liquid= 0;
-        }
-    }
-
-    public String toString(){
-        //amount of liquid/100
-        return this.liquid + "/100";
-    }
-}
+import java.util.Hashtable;
 
 public class test {
-
     public static void main(String[] args) {
-       Container c1= new Container();
-       Container c2= new Container();
-    }
+        int n= 3;
+        int k= 2;
+        
+        int r= n/ 3;
+        System.out.println("r: "+r);
+        System.out.println((int)Math.pow(k, n-r));
+        System.out.println((int)Math.pow(k-1, r));
 
+        System.out.println((int)Math.pow(k, n-r)* (int)Math.pow(k-1, r));
+
+        
+    }
 }
