@@ -19,8 +19,7 @@ REM Generate the Solution.java file
   echo class Solution ^{ 
   echo   public static void main(String^[] args^) ^{
   echo       System.out.println("Hey! Krunal."^);
-  echo       System.out.println("Let's Do Today's Leetcode."^);
-  echo       System.out.println("https://leetcode.com/problemset/"^);
+  echo       System.out.println("Let's Do Today's Leetcode." + "https://leetcode.com/problemset/"^);
   echo   ^}
   echo ^}
 ) > Solution.java

@@ -1,3 +1,10 @@
+we need follow proper plan
+  - arrays
+  - string
+  - 2d 3d matrix
+  - DP
+
+
 Sorting - Insertion sort, Merge sort, Quick sort, Heap sort, Bucket sort, Counting sort, Radix sort, External sorting
 Search - Linear search, Binary Search (along with its variants).
 Prime Numbers - Sieve of Eratosthenes, Primality test
@@ -72,3 +79,10 @@ integer-wraparound:
 
 Overflow:   Integer.MAX_VALUE + 1   --> result value is too big to fit in Integer data type cause Overflow.
 Underflow:  Integer.MIN_VALUE - 1   --> result value is too small to fit in Integer data type cause Undeflow.
+
+
+Interview Tip:
+    > When there is repetative tasks, consider DP and precomputation. 
+    url: https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/
+
+    >
