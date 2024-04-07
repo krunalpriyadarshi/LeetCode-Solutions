@@ -24,6 +24,8 @@ link: https://www.quora.com/Is-it-necessary-to-learn-algorithms-and-data-structu
 
 
 
+string.format()
+
 
 
 
