@@ -6,7 +6,7 @@ set /p "folderName=Enter folder name: "
 set "newFolderName=Java %folderName%"
 
 REM Set the base path
-set "basePath=E:\VScode\HackerRank\LeetCode\"
+set "basePath=E:\VScode\HackerRank\"
 
 REM Create a new folder at the specified path
 set "fullPath=%basePath%%newFolderName%"

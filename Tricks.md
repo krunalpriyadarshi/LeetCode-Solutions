@@ -51,12 +51,9 @@ LinkedHashMap???
 arrays.fill(arr, start, end, val);????
 BIGintergers???????
 Longest Subsequence -------
-lambda expression??
 
 
 biotonic means "Initially a sequence of numbers is in incresing order; however, beyond a certain point, it begins to decrease."
-
-
 
 binary serach:
   arr[]= {1, 2, 3, 4, 5};
@@ -81,6 +78,55 @@ integer-wraparound:
 
 Overflow:   Integer.MAX_VALUE + 1   --> result value is too big to fit in Integer data type cause Overflow.
 Underflow:  Integer.MIN_VALUE - 1   --> result value is too small to fit in Integer data type cause Undeflow.
+
+Lambda Expression:  
+    In java, lambda is a method which is part of inteface.
+
+    code 1: Created a function interface method in a class and use it in main class method.      
+      // functional interface means this interface can have only one method. if you try to include one more method it will show error. NOTE: you can include object methods like toString() method.
+      @FunctionalInterface 
+      interface A{
+        void call(); 
+        // this is interface's method. when a class implement this interface, the class must have to define method for it.
+      }
+
+      class b implement a{
+        void call(){
+          System.out.println("calling method.");
+        }
+      }
+
+      class solution{
+        void main(){
+          a obj= new b();
+          b.call();   // --> prints "calling method."
+        }
+      }
+
+    code2: inner class to use functional interface.
+      @FunctionalInterface 
+      interface A{
+        void call(); 
+      }
+      class Solution{
+        // user inner class to use interface
+        A obj = new A(){
+            public void show(){
+                System.out.println("Hello");
+            }
+        };
+        obj.show();
+      }
+    
+    code3: lambda function
+      @FunctionalInterface 
+      interface A{
+        void call(); 
+      }
+      class Solution{
+        A obj= ()-> System.out.println("Hello");
+        A.call();
+      }
 
 
 Interview Tip:
