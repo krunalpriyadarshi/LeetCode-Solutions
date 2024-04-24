@@ -1,4 +1,6 @@
-public class test {
+package FunCode.AutoGenerate;
+
+public class Generate {
     public static void main(String[] args) {
         String str= "hEllO wOrLD";
         StringBuilder sb= new StringBuilder();
