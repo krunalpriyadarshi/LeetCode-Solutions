@@ -57,9 +57,14 @@ biotonic means "Initially a sequence of numbers is in incresing order; however, 
 
 binary serach:
   arr[]= {1, 2, 3, 4, 5};
-  left = 0, right = arr.lenght-1, mid= (left+ right)>>>2;
+  left = 0, right = arr.lenght-1, mid= (left+ right)>>>1;
     if you want to add an element in sorted list take "right = arr.length". bcz it is possible that new element is maximum and it will added to last of the row.
     but if you want to find an element in sorted list take "right= arr.length-1"
+
+    NOTE:
+      Overflow can be occured while calculating mid value.
+      so use (left+ (right- left)/2) instead of (left+ right)/2 or (left+ right)>>>1.
+      it will avoid overflow situation for boundary values.
  
 integer-wraparound:
       When Overflow or Underflow occurs Java internal will wrap the integer range.
