@@ -1,3 +1,28 @@
+| Collection              | Interface | Ordered | Sorted | Thread safe | Duplicate | Nullable    |
+|-------------------------|-----------|---------|--------|-------------|-----------|-------------|
+| ArrayList               | List      | N       | N      | N           | Y         | Y           |
+| Vector                  | List      | N       | Y      | Y           | Y         | Y           |
+| LinkedList              | List, Deque | Y     | N      | N           | Y         | Y           |
+| CopyOnWriteArrayList    | List      | N       | Y      | Y           | Y         | Y           |
+| HashSet                 | Set       | N       | N      | N           | N         | One null    |
+| LinkedHashSet           | Set       | N       | N      | N           | N         | One null    |
+| TreeSet                 | Set       | Y       | Y      | N           | N         | N           |
+| CopyOnWriteArraySet     | Set       | N       | Y      | N           | N         | One null    |
+| ConcurrentSkipListSet   | Set       | Y       | Y      | Y           | N         | N           |
+| HashMap                 | Map       | N       | N      | N (key)     | N (key)   | One null    |
+| HashTable               | Map       | N       | Y      | Y           | N (key)   | N (key)     |
+| LinkedHashMap           | Map       | N       | N      | N (key)     | N (key)   | One null    |
+| TreeMap                 | Map       | Y       | Y      | N           | N (key)   | N (key)     |
+| ConcurrentHashMap       | Map       | N       | N      | Y           | N (key)   | N           |
+| ConcurrentSkipListMap   | Map       | Y       | Y      | Y           | N (key)   | N           |
+| ArrayDeque              | Deque     | Y       | N      | N           | N         | N           |
+| PriorityQueue           | Queue     | Y       | N      | N           | N         | N           |
+| ConcurrentLinkedQueue   | Queue     | Y       | N      | Y           | N         | N           |
+| ConcurrentLinkedDeque   | Deque     | Y       | N      | Y           | N         | N           |
+| ArrayBlockingQueue      | Queue     | Y       | N      | Y           | N         | N           |
+| LinkedBlockingDeque     | Deque     | Y       | N      | Y           | N         | N           |
+| PriorityBlockingQueue   | Queue     | Y       | N      | Y           | N         | N           |
+
 we need follow proper plan
   - arrays
   - string

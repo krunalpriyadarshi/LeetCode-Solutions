@@ -1,10 +1,9 @@
 public class test {
     public static void main(String[] args) {
-        String s="abc";
-        char[] arr= (s.substring(1, s.length())+ s.substring(0, s.length()- 1)).toCharArray();
+        StringBuilder sb= new StringBuilder(4);
 
-        for(char ch: arr){
-            System.out.print(ch);
-        }
+
+        sb.append("Hello");
+        System.out.println(sb.toString());
     }
 }
