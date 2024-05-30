@@ -12,5 +12,3 @@ git status -s
 git add .
 git commit -m "%MESSAGE%"
 git push origin HEAD
-
-echo Done!
