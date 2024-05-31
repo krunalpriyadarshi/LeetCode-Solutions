@@ -59,7 +59,8 @@ string.format()
  Integer a[] = new Integer[] { 10, 20, 30, 40 };
 
 
-
+use instead of "int x= (int) Math.ceil(num/ 2.0);" 
+    --> int x= (num+ 1)/ 2;
 
  // Getting the list view of Array
 List<Integer> list = Arrays.asList(a);
