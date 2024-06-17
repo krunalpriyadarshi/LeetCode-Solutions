@@ -1,6 +1,9 @@
 class Solution { 
   public static void main(String[] args) {
-      System.out.println("Hey! Krunal.");
-      System.out.println("Let's Do Today's Leetcode." + "https://leetcode.com/problemset/");
+    int l= Integer.MAX_VALUE;
+      System.out.println(l);
+      int root= (int) Math.sqrt(l);
+      System.out.println(root* root);
+      
   }
 }
