@@ -74,6 +74,9 @@ d % 1 == 0    --- checks if double has decimal points.
   
 to-do : LL 234
 
+
+
+BiFunction ??
 list??
 HashSet????
 HashMap??
@@ -115,7 +118,7 @@ Overflow:   Integer.MAX_VALUE + 1   --> result value is too big to fit in Intege
 Underflow:  Integer.MIN_VALUE - 1   --> result value is too small to fit in Integer data type cause Undeflow.
 
 Lambda Expression:  
-    In java, lambda is a method which is part of inteface.
+    In java, lambda is a method which is part of interface.
 
     code 1: Created a function interface method in a class and use it in main class method.      
       // functional interface means this interface can have only one method. if you try to include one more method it will show error. NOTE: you can include object methods like toString() method.
