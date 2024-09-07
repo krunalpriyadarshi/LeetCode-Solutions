@@ -1,0 +1,12 @@
+-> (way-1)
+    you can create hashmap of <uniqueValue, frequency>.
+    convert hashmap to arraylist and sort'em.
+    use Map.entry() to get elements which has highest freqs till we get all k elements.
+
+-> (way-2) (cheap way to escape)
+    create a freqs[] where each index is freq. so when an element has 3 freqs than it will be saved to 3rd index.
+    we can manipulate and get return type.
+
+-> (way-3) (optimized)
+    use PriorityQueue as maxHeap and poll max element from heap.
+    initially we need hashmap to count freq and then insert'em into the max-heap. and convert them back to return type.

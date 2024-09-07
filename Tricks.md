@@ -30,6 +30,8 @@ we need follow proper plan
   - DP
 
 
+type conversion from array to array list; arraylist to hashmap and vice versa... ??????????????????
+
 Sorting - Insertion sort, Merge sort, Quick sort, Heap sort, Bucket sort, Counting sort, Radix sort, External sorting
 Search - Linear search, Binary Search (along with its variants).
 Prime Numbers - Sieve of Eratosthenes, Primality test
