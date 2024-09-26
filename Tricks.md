@@ -29,8 +29,7 @@ we need follow proper plan
   - 2d 3d matrix
   - DP
 
-
-type conversion from array to array list; arraylist to hashmap and vice versa... ??????????????????
+type conversion from array to array list; arraylist to hashmap and vice versa...        ??????????????????
 
 Sorting - Insertion sort, Merge sort, Quick sort, Heap sort, Bucket sort, Counting sort, Radix sort, External sorting
 Search - Linear search, Binary Search (along with its variants).
