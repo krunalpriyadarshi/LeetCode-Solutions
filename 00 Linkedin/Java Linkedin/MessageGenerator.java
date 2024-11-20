@@ -18,6 +18,10 @@ public class MessageGenerator {
         }
     }
 
+    public static String makeCapital(String str){
+        return str.substring(0, 1).toUpperCase() + str.substring(1);
+    }
+
     public static void generateMessage(Scanner scanner) {
         // Display role options to the user
             // Clearing the console
@@ -38,18 +42,18 @@ public class MessageGenerator {
             
             // Input: Name of the person
             System.out.print("Enter the name of the person: ");
-            String name = scanner.nextLine().trim();
+            String name = makeCapital(scanner.nextLine().trim());
             
             // Input: Company name
             System.out.println("Use this company name: " + CompanyName + "? (y/n)");
             String response = scanner.nextLine();
             String company;
             if (!response.equals("y")) {
-                company = response;
+                company = makeCapital(response);
                 CompanyName = company;
             }
             else{
-                company = CompanyName;
+                company = makeCapital(CompanyName);
             }
             
             // Generate and print the message
