@@ -41,8 +41,8 @@ public class MessageGenerator {
             scanner.nextLine(); // Consume the newline character
             
             // Input: Name of the person
-            System.out.print("Enter the name of the person: ");
-            String name = makeCapital(scanner.nextLine().trim());
+            //System.out.print("Enter the name of the person: ");
+            //String name = makeCapital(scanner.nextLine().trim());
             
             // Input: Company name
             System.out.println("Use this company name: " + CompanyName + "? (y/n)");
@@ -57,7 +57,7 @@ public class MessageGenerator {
             }
             
             // Generate and print the message
-            String message = generateMessage(role, name, company);
+            String message = generateMessage(role, "XX", company);
             System.out.println("\nGenerated Message:\n" + message + "\n\n\n");
     }
 
@@ -65,10 +65,10 @@ public class MessageGenerator {
         return switch (role) {
             case 1 -> "Hi " + name + ", I'm planning to apply for a product role (Job ID: 111) at " + company
                 + ". My experience closely aligns with the role. Would you be willing to help me navigate? Thanks in advance!";
-            case 2 -> "Dear " + name + ", I hope this message finds you well.\n" +"I am a Java Developer with ~2 years of experience. And I have been following " + company
+            case 2 -> "Dear " + name + ", I hope this message finds you in good health.\n" +"I am a recent graduate with ~2 years of experience as a Java Developer. And I have been following " + company
                 + "'s innovation in Technology. I would be honored to connect with you to explore any potential opportunities.";
             case 3 -> "Hi " + name + ", I admire your leadership at " + company
-                + ". \nAs a Java Developer with ~2 years of experience, I'm seeking to contribute to impactful projects and would appreciate your guidance or tips about " + company + "'s hiring process.";
+                + ". \nAs I am a recent graduate with ~2 years of experience as a Java Developer, I'm seeking to contribute to impactful projects and would appreciate your guidance or tips about " + company + "'s hiring process.";
             case 4 -> "Hi " + name + ", I see you're working as a Software Developer at " + company
                 + ". As someone with a similar background in Java, I'd love to connect and learn more about your experience at " + company + ".";
             default -> "Invalid selection. Please enter a number between 1 and 4.";
