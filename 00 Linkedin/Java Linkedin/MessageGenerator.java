@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// experince -> add most of keywords
+// max 2-3 bullet points for projects
+// skills -> more your relevant skills to the front:
+
 public class MessageGenerator {
     private static String CompanyName = "Google";
 
