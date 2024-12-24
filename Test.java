@@ -1,5 +1,5 @@
-class Solution {
-    public void continuousSubarrays(int[] nums) {
-        System.out.println(Character.toUpperCase('c'));
+class Test{
+    public static void main(String[] args) {
+        System.out.println(100 % 0);
     }
 }
