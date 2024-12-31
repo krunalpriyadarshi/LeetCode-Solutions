@@ -1,59 +1,10 @@
-Java Spring Boot Developer | Backend Developer | AWS Enthusiast | Expert in REST APIs, Spring Security, and Kafka | CI/CD & Docker for Scalable Deployments
-
 ----------------------------------------------
-            Linkedin NOTE V1
+            Linkedin NOTE V3
 ----------------------------------------------
+Hi XXX, 
+I'm Krunal, a software developer specializing in Java/ReactJS/cloud technologies. I'm interested in the XXXDeveloper role at XXXCompany would appreciate any guidance or insights you might offer regarding referral possibilities.
 
-Hi XX, I admire your leadership at XXX. 
-As I am a recent graduate with ~2 years of experience as a Java Developer, I'm seeking to contribute to impactful projects and would appreciate your guidance or tips about XXX's hiring process.
-
-----------------------------------------------
-            Linkedin NOTE V2
-----------------------------------------------
-Hi [insert name of contact],
-
-[insert what you have in common with person you are reaching out to (i.e., “I attended NYU and recently moved to Ohio.”]. I came across the [name of role you are applying to (can also make it a hyperlink)] role at [Company name] and am interested in applying. Would you be open to sharing my resume with the hiring team so they know about my interest in this role? Happy to chat more if you have the time. Looking forward to hearing from you.
--------------
-EXAMPLE  >>>
--------------
-Hi XXX,
-
-I am recent graduate with 2 years of Software development experience. I came across the Java developer role at XXX and am interested in applying. 
-
-Would you be open to sharing my resume with the hiring team so they know about my interest in this role? 
-
-Thank you,
-Krunal
-
-----------------------------------------------
-            Linkedin Follow-up V1
-----------------------------------------------
-Hey XXX,
-Thank you for connecting with me.
-
-I recently came across your hiring post regarding Developer role and I would love to discuss this opportunity further.  As a recent graduate with 2 years of experience as a Software Developer, I believe I would be a strong fit for this position. 
-
-Is there any time that we could have a brief conversation about my qualification? 
-
-Thank you again for your help.
-
-Regards,
-Krunal Priyadarshi
-
-----------------------------------------------
-            Linkedin Follow-up V2
-----------------------------------------------
-I wanted to kindly ask if you would be open to give referral for this position or guidance that could help me to secure interview.
-
-I would greatly appreciate your support.
-
-----------------------------------------------
-            Linkedin Follow-up V3
-----------------------------------------------
-
-I wanted to kindly ask if you would be open to give referral for this position or guidance that could help me to secure interview.
-
-I would greatly appreciate your support.
+Thank you for your time!
 
 ----------------------------------------------
             Linkedin Follow-up V4
@@ -79,6 +30,82 @@ Portfolio: https://kpriyadarshi-ca.vercel.app/
 
 
 
+
+
+
+=============================================================================================
+=============================================================================================
+
+
+Java Spring Boot Developer | Backend Developer | AWS Enthusiast | Expert in REST APIs, Spring Security, and Kafka | CI/CD & Docker for Scalable Deployments
+----------------------------------------------
+            Linkedin NOTE V1
+----------------------------------------------
+Hi XX, I admire your leadership at XXX. 
+As I am a recent graduate with ~2 years of experience as a Java Developer, I'm seeking to contribute to impactful projects and would appreciate your guidance or tips about XXX's hiring process.
+----------------------------------------------
+            Linkedin NOTE V2
+----------------------------------------------
+Hi XXX,
+
+I am recent graduate with 2 years of Software development experience. I came across the Java developer role at XXX and am interested in applying. 
+
+Would you be open to sharing my resume with the hiring team so they know about my interest in this role? 
+
+Thank you,
+Krunal
+----------------------------------------------
+            Linkedin NOTE V3
+----------------------------------------------
+Hi XXX, 
+I'm Krunal, a software developer specializing in Java/ReactJS/cloud technologies. I'm interested in the XXXDeveloper role at XXXCompany would appreciate any guidance or insights you might offer regarding referral possibilities.
+
+Thank you for your time!
+----------------------------------------------
+            Linkedin Follow-up V1
+----------------------------------------------
+Hey XXX,
+Thank you for connecting with me.
+
+I recently came across your hiring post regarding Developer role and I would love to discuss this opportunity further.  As a recent graduate with 2 years of experience as a Software Developer, I believe I would be a strong fit for this position. 
+
+Is there any time that we could have a brief conversation about my qualification? 
+
+Thank you again for your help.
+
+Regards,
+Krunal Priyadarshi
+----------------------------------------------
+            Linkedin Follow-up V2
+----------------------------------------------
+I wanted to kindly ask if you would be open to give referral for this position or guidance that could help me to secure interview.
+
+I would greatly appreciate your support.
+----------------------------------------------
+            Linkedin Follow-up V3
+----------------------------------------------
+I wanted to kindly ask if you would be open to give referral for this position or guidance that could help me to secure interview.
+
+I would greatly appreciate your support.
+----------------------------------------------
+            Linkedin Follow-up V4
+----------------------------------------------
+Hi XXX,
+
+I am recent graduate with 2 years of Software development experience. I came across the XXX developer role at XXCOMPANY and am interested in applying. 
+
+Would you be open to refer me or guide me to land succesful interview? As I've been trying to get into XXCOMPANY.
+
+Thank you,
+Krunal
+----------------------------------------------
+            Linkedin HR Message V1
+----------------------------------------------
+
+Hi XXX,
+I applied for the XXX position. I have looked into XXXCompany and believe I would be a good fit for the XXXROLE position. I wanted to reach out to see if we can schedule an interview.
+
+Portfolio: https://kpriyadarshi-ca.vercel.app/
 ____________________________________________________
 
 I'm Krunal Priyadarshi, and I recently come across job posting for a Web Programmer.
