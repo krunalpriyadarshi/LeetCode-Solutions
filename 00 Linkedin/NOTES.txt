@@ -19,13 +19,16 @@ Thank you,
 Krunal
 
 ----------------------------------------------
-            Linkedin HR Message V1
+            Linkedin HR Message V2
 ----------------------------------------------
 
 Hi XXX,
-I applied for the XXX position. I have looked into XXXCompany and believe I would be a good fit for the XXXROLE position. I wanted to reach out to see if we can schedule an interview.
 
-Portfolio: https://kpriyadarshi-ca.vercel.app/
+XXCommonXXX suggested to reach out to you.
+I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am interested in XXX roles at XXX. 
+
+My portfolio: https://kpriyadarshi-ca.vercel.app/
+I'd appreciate connecting.
 
 
 
@@ -38,6 +41,9 @@ Portfolio: https://kpriyadarshi-ca.vercel.app/
 
 
 Java Spring Boot Developer | Backend Developer | AWS Enthusiast | Expert in REST APIs, Spring Security, and Kafka | CI/CD & Docker for Scalable Deployments
+
+
+
 ----------------------------------------------
             Linkedin NOTE V1
 ----------------------------------------------
@@ -61,6 +67,9 @@ Hi XXX,
 I'm Krunal, a software developer specializing in Java/ReactJS/cloud technologies. I'm interested in the XXXDeveloper role at XXXCompany would appreciate any guidance or insights you might offer regarding referral possibilities.
 
 Thank you for your time!
+
+
+
 ----------------------------------------------
             Linkedin Follow-up V1
 ----------------------------------------------
@@ -98,20 +107,25 @@ Would you be open to refer me or guide me to land succesful interview? As I've b
 
 Thank you,
 Krunal
-----------------------------------------------
-            Linkedin HR Message V1
-----------------------------------------------
 
+
+
+----------------------------------------------
+            HR Message V1
+----------------------------------------------
 Hi XXX,
 I applied for the XXX position. I have looked into XXXCompany and believe I would be a good fit for the XXXROLE position. I wanted to reach out to see if we can schedule an interview.
 
 Portfolio: https://kpriyadarshi-ca.vercel.app/
-____________________________________________________
+----------------------------------------------
+            HR Message V2
+----------------------------------------------
+Hi XXX,
 
-I'm Krunal Priyadarshi, and I recently come across job posting for a Web Programmer.
+XXCommonXXX suggested to reach out to you.
+I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am interested in XXX roles at XXX. 
 
-The job description closely matches my Conga Pvt. Ltd. professional expertise. Additionally, during my academic career, I have created MVC web applications. which are available on Github.
-
-To further discuss the role, I would be pleased to send you my résumé and arrange a convenient time for a Zoom call to further discuss the position.
+My portfolio: https://kpriyadarshi-ca.vercel.app/
+I'd appreciate connecting.
 
 
