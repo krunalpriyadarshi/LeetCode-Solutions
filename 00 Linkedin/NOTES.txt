@@ -1,8 +1,13 @@
+Add job role name mentioned in job desc to your intern role.
+
+
+
+
 ----------------------------------------------
             Linkedin NOTE V3
 ----------------------------------------------
 Hi XXX, 
-I'm Krunal, a software developer specializing in Java/ReactJS/cloud technologies. I'm interested in the XXXDeveloper role at XXXCompany would appreciate any guidance or insights you might offer regarding referral possibilities.
+I'm Krunal, a software developer specializing in Java/ReactJS/cloud technologies. I'm interested in the XXXDeveloper role at XXXCompany. I would appreciate any guidance or insights you might offer regarding referral possibilities.
 
 Thank you for your time!
 
@@ -13,19 +18,19 @@ Hi XXX,
 
 I am recent graduate with 2 years of Software development experience. I came across the XXX developer role at XXCOMPANY and am interested in applying. 
 
-Would you be open to refer me or guide me to land succesful interview? As I've been trying to get into XXCOMPANY.
+Would you be open to refer me or guide me to land successful interview? As I've been trying to get into XXCOMPANY.
 
 Thank you,
 Krunal
 
 ----------------------------------------------
-            Linkedin HR Message V2
+            Linkedin HR Message V3
 ----------------------------------------------
 
 Hi XXX,
 
-XXCommonXXX suggested to reach out to you.
-I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am interested in XXX roles at XXX. 
+XXCommonXXX (XXSDE at XXCompanyName) suggested to reach out to you.
+I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am interested for XXX position. 
 
 My portfolio: https://kpriyadarshi-ca.vercel.app/
 I'd appreciate connecting.
@@ -127,5 +132,14 @@ I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am int
 
 My portfolio: https://kpriyadarshi-ca.vercel.app/
 I'd appreciate connecting.
+----------------------------------------------
+            HR Message V3
+----------------------------------------------
+Hi XXX,
 
+XXCommonXXX (XXSDE at XXCompanyName) suggested to reach out to you.
+I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am interested for XXX position. 
+
+My portfolio: https://kpriyadarshi-ca.vercel.app/
+I'd appreciate connecting.
 
