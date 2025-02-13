@@ -1,7 +1,9 @@
-Add job role name mentioned in job desc to your intern role.
+Hi XXXname,
 
+I came across a job opening at Capital One and noticed that my prior experience aligns well with the role. As a recent graduate, I would like to use your referral to help speed up the interview process.
 
-
+Job role: XXXRole
+Job id: XXX
 
 ----------------------------------------------
             Linkedin NOTE V3
@@ -35,6 +37,11 @@ I'm a Software Engineer specializing in Java/ReactJS/cloud technologies I am int
 My portfolio: https://kpriyadarshi-ca.vercel.app/
 I'd appreciate connecting.
 
+
+Hi [HR_Name],
+
+I’m interested in the [Job Title] role at [Company Name] and would love to learn more. 
+With my experience in Java/ReactJS/cloud technologies, I believe I’d be a great fit. Looking forward to connecting!
 
 
 
