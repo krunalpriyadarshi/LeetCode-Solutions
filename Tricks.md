@@ -167,6 +167,14 @@ Lambda Expression:
         A.call();
       }
 
+Finds GCD - Greatest Common Divisor:
+      int gcd(int a, int b){
+        if(b == 0)
+            return a;
+        return gcd(b, a% b);
+      }
+
+
 
 Interview Tip:
     > When there is repetative tasks, consider DP and precomputation. 
