@@ -23,11 +23,15 @@
 | LinkedBlockingDeque     | Deque     | Y       | N      | Y           | N         | N           |
 | PriorityBlockingQueue   | Queue     | Y       | N      | Y           | N         | N           |
 
+
+
 we need follow proper plan
   - arrays
   - string
   - 2d 3d matrix
   - DP
+
+
 
 type conversion from array to array list; arraylist to hashmap and vice versa...        ??????????????????
 
@@ -45,12 +49,28 @@ GeeksforGeeks
 HackerRank
 InterviewBit
 
-link: https://www.quora.com/Is-it-necessary-to-learn-algorithms-and-data-structures-before-starting-on-artificial-intelligence
 
 
+string.format() or printf() ::
+      String.format() – ✅ Most commonly used.
+      System.out.printf() – For printing formatted strings.
+      Formatter class – Advanced usage.
 
+      Syntex:
+            String.format("String", ...args);
 
-string.format()
+            %s  --> used for string
+            %d  --> used for Digits (Integer values)
+            %f  --> used for floating values  (like float and double)
+
+            Tip:
+              %.2f
+              %%    --> to add '%' to output string
+              %,f   --> 123,456,789 print long value in this format.
+
+      Examples:
+            String msg = String.format("Hello, %s!", "Ktunal");
+            System.out.printf("You scored %.1f%% in the test.%n", 92.5);
 
 
 
