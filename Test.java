@@ -1,10 +1,14 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
 class Test{
     public static void main(String[] args) {
-        int age = 25;
-        String city = "Kitchener";
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
 
-        String outString = String.format("Hi, I am %s. I am %d years old and I live in %s.","krunal Priyadarshi", age, city);
-
-        System.out.println(outString);
+        System.out.println(list.get(4));
     }
 }

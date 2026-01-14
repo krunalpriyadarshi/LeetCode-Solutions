@@ -195,9 +195,14 @@ Finds GCD - Greatest Common Divisor:
       }
 
 
+????
+learn how heap, treeSet work internally?
+
+
+
 
 Interview Tip:
     > When there is repetative tasks, consider DP and precomputation. 
     url: https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/
 
-    >
+    > 
