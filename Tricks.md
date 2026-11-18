@@ -194,6 +194,10 @@ Finds GCD - Greatest Common Divisor:
         return gcd(b, a% b);
       }
 
+Linked list:
+      Use dummy node approach: 203. Remove Linked List Elements 
+
+
 
 ????
 learn how heap, treeSet work internally?
