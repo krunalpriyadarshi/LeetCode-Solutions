@@ -23,15 +23,12 @@
 | LinkedBlockingDeque     | Deque     | Y       | N      | Y           | N         | N           |
 | PriorityBlockingQueue   | Queue     | Y       | N      | Y           | N         | N           |
 
-
-
 we need follow proper plan
-  - arrays
-  - string
-  - 2d 3d matrix
-  - DP
 
-
+- arrays
+- string
+- 2d 3d matrix
+- DP
 
 type conversion from array to array list; arraylist to hashmap and vice versa...        ??????????????????
 
@@ -48,8 +45,6 @@ Programming Interviews Exposed: Secrets to Landing Your Next Job
 GeeksforGeeks
 HackerRank
 InterviewBit
-
-
 
 string.format() or printf() ::
       String.format() – ✅ Most commonly used.
@@ -72,30 +67,17 @@ string.format() or printf() ::
             String msg = String.format("Hello, %s!", "Ktunal");
             System.out.printf("You scored %.1f%% in the test.%n", 92.5);
 
-
-
-
-
-
-
-
-
-
  Integer a[] = new Integer[] { 10, 20, 30, 40 };
 
-
-use instead of "int x= (int) Math.ceil(num/ 2.0);" 
+use instead of "int x= (int) Math.ceil(num/ 2.0);"
     --> int x= (num+ 1)/ 2;
 
  // Getting the list view of Array
 List<Integer> list = Arrays.asList(a);
 
-
 d % 1 == 0    --- checks if double has decimal points.
   
 to-do : LL 234
-
-
 
 BiFunction ??
 list??
@@ -105,7 +87,6 @@ LinkedHashMap???
 arrays.fill(arr, start, end, val);????
 BIGintergers???????
 Longest Subsequence -------
-
 
 biotonic means "Initially a sequence of numbers is in incresing order; however, beyond a certain point, it begins to decrease."
 
@@ -119,11 +100,11 @@ binary serach:
       Overflow can be occured while calculating mid value.
       so use (left+ (right- left)/2) instead of (left+ right)/2 or (left+ right)>>>1.
       it will avoid overflow situation for boundary values.
- 
+
 integer-wraparound:
       When Overflow or Underflow occurs Java internal will wrap the integer range.
-      ex., 
-        char c= -128 
+      ex.,
+        char c= -128
         c-=1;
         Which will be -129 but it is out of char range.
         So wrap-around will put 127 instead of giving error.
@@ -195,17 +176,13 @@ Finds GCD - Greatest Common Divisor:
       }
 
 Linked list:
-      Use dummy node approach: 203. Remove Linked List Elements 
-
+      Use dummy node approach: 203. Remove Linked List Elements
 
 ????
 learn how heap, treeSet work internally?
 
-
-
-
 Interview Tip:
-    > When there is repetative tasks, consider DP and precomputation. 
-    url: https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/
+    > When there is repetative tasks, consider DP and precomputation.
+    url: <https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/>
 
     > 
