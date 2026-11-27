@@ -1,188 +1,261 @@
-| Collection              | Interface | Ordered | Sorted | Thread safe | Duplicate | Nullable    |
-|-------------------------|-----------|---------|--------|-------------|-----------|-------------|
-| ArrayList               | List      | N       | N      | N           | Y         | Y           |
-| Vector                  | List      | N       | Y      | Y           | Y         | Y           |
-| LinkedList              | List, Deque | Y     | N      | N           | Y         | Y           |
-| CopyOnWriteArrayList    | List      | N       | Y      | Y           | Y         | Y           |
-| HashSet                 | Set       | N       | N      | N           | N         | One null    |
-| LinkedHashSet           | Set       | N       | N      | N           | N         | One null    |
-| TreeSet                 | Set       | Y       | Y      | N           | N         | N           |
-| CopyOnWriteArraySet     | Set       | N       | Y      | N           | N         | One null    |
-| ConcurrentSkipListSet   | Set       | Y       | Y      | Y           | N         | N           |
-| HashMap                 | Map       | N       | N      | N (key)     | N (key)   | One null    |
-| HashTable               | Map       | N       | Y      | Y           | N (key)   | N (key)     |
-| LinkedHashMap           | Map       | N       | N      | N (key)     | N (key)   | One null    |
-| TreeMap                 | Map       | Y       | Y      | N           | N (key)   | N (key)     |
-| ConcurrentHashMap       | Map       | N       | N      | Y           | N (key)   | N           |
-| ConcurrentSkipListMap   | Map       | Y       | Y      | Y           | N (key)   | N           |
-| ArrayDeque              | Deque     | Y       | N      | N           | N         | N           |
-| PriorityQueue           | Queue     | Y       | N      | N           | N         | N           |
-| ConcurrentLinkedQueue   | Queue     | Y       | N      | Y           | N         | N           |
-| ConcurrentLinkedDeque   | Deque     | Y       | N      | Y           | N         | N           |
-| ArrayBlockingQueue      | Queue     | Y       | N      | Y           | N         | N           |
-| LinkedBlockingDeque     | Deque     | Y       | N      | Y           | N         | N           |
-| PriorityBlockingQueue   | Queue     | Y       | N      | Y           | N         | N           |
+# Java DSA Study Notes & Reference
 
-we need follow proper plan
+* * *
 
-- arrays
-- string
-- 2d 3d matrix
-- DP
+## Java Collections Cheat Sheet
 
-type conversion from array to array list; arraylist to hashmap and vice versa...        ??????????????????
+| Collection | Interface | Ordered | Sorted | Thread Safe | Duplicate | Nullable |
+| --- | --- | --- | --- | --- | --- | --- |
+| ArrayList | List | N | N | N | Y | Y |
+| Vector | List | N | Y | Y | Y | Y |
+| LinkedList | List, Deque | Y | N | N | Y | Y |
+| CopyOnWriteArrayList | List | N | Y | Y | Y | Y |
+| HashSet | Set | N | N | N | N | One null |
+| LinkedHashSet | Set | N | N | N | N | One null |
+| TreeSet | Set | Y | Y | N | N | N |
+| CopyOnWriteArraySet | Set | N | Y | N | N | One null |
+| ConcurrentSkipListSet | Set | Y | Y | Y | N | N |
+| HashMap | Map | N | N | N (key) | N (key) | One null |
+| HashTable | Map | N | Y | Y | N (key) | N (key) |
+| LinkedHashMap | Map | N | N | N (key) | N (key) | One null |
+| TreeMap | Map | Y | Y | N | N (key) | N (key) |
+| ConcurrentHashMap | Map | N | N | Y | N (key) | N |
+| ConcurrentSkipListMap | Map | Y | Y | Y | N (key) | N |
+| ArrayDeque | Deque | Y | N | N | N | N |
+| PriorityQueue | Queue | Y | N | N | N | N |
+| ConcurrentLinkedQueue | Queue | Y | N | Y | N | N |
+| ConcurrentLinkedDeque | Deque | Y | N | Y | N | N |
+| ArrayBlockingQueue | Queue | Y | N | Y | N | N |
+| LinkedBlockingDeque | Deque | Y | N | Y | N | N |
+| PriorityBlockingQueue | Queue | Y | N | Y | N | N |
 
-Sorting - Insertion sort, Merge sort, Quick sort, Heap sort, Bucket sort, Counting sort, Radix sort, External sorting
-Search - Linear search, Binary Search (along with its variants).
-Prime Numbers - Sieve of Eratosthenes, Primality test
-Strings - String searching, LCS, Palindrome detection
-Miscellaneous - Euclidean algorithm, Matrix multiplication, Fibonacci Numbers, Pascal's Triangle, Max Subarray problem
-Day 26 - 50: Once you are comfortable with everything above, start doing problems from,
+* * *
 
-Cracking the Coding Interview
-Elements of Programming Interviews
-Programming Interviews Exposed: Secrets to Landing Your Next Job
-GeeksforGeeks
-HackerRank
-InterviewBit
+## Study Plan
 
-string.format() or printf() ::
-      String.format() – ✅ Most commonly used.
-      System.out.printf() – For printing formatted strings.
-      Formatter class – Advanced usage.
+* Prime Numbers: Sieve of Eratosthenes, Primality Test
+* Euclidean Algorithm (GCD)
+* Fibonacci Numbers
+* Pascal's Triangle
 
-      Syntex:
-            String.format("String", ...args);
+* String Searching
+* Longest Common Subsequence (LCS)
+* Palindrome Detection
 
-            %s  --> used for string
-            %d  --> used for Digits (Integer values)
-            %f  --> used for floating values  (like float and double)
+* Matrix Multiplication
+* Max Subarray Problem (Kadane's Algorithm)
 
-            Tip:
-              %.2f
-              %%    --> to add '%' to output string
-              %,f   --> 123,456,789 print long value in this format.
+### Resources
 
-      Examples:
-            String msg = String.format("Hello, %s!", "Ktunal");
-            System.out.printf("You scored %.1f%% in the test.%n", 92.5);
+* Cracking the Coding Interview
+* Elements of Programming Interviews
+* Programming Interviews Exposed
+* GeeksforGeeks
+* HackerRank
+* InterviewBit
 
- Integer a[] = new Integer[] { 10, 20, 30, 40 };
+## Revision
 
-use instead of "int x= (int) Math.ceil(num/ 2.0);"
-    --> int x= (num+ 1)/ 2;
+* BiFunction
+* List internals
+* HashSet internals
+* HashMap internals
+* LinkedHashMap internals
+* Arrays.fill(arr, start, end, val)
+* BigInteger
+* Longest Subsequence
+* How Heap works internally
+* How TreeSet works internally
+* LeetCode 234 (Linked List Palindrome)
 
- // Getting the list view of Array
+## String Formatting
+
+Three main ways to format strings in Java:
+| Method | Use Case |
+| --- | --- |
+| String.format() | Most commonly used |
+| System.out.printf() | For printing formatted strings |
+| Formatter class | Advanced usage |
+
+### Syntax
+
+```
+String.format("template", ...args);
+```
+
+### Format Specifiers
+
+| Specifier | Type |
+| --- | --- |
+| %s | String |
+| %d | Integer (Digits) |
+| %f | Float / Double |
+| %.2f | Float with 2 decimal places |
+| %% | Literal % character |
+| %,f | Long value with commas e.g. 123,456,789 |
+
+### String format
+
+```java
+String msg = String.format("Hello, %s!", "Kunal");
+System.out.printf("You scored %.1f%% in the test.%n", 92.5);
+```
+
+## Arrays
+
+```java
+// Typed Integer array
+Integer a[] = new Integer[] { 10, 20, 30, 40 };
+
+// Get List view of an Array
 List<Integer> list = Arrays.asList(a);
 
-d % 1 == 0    --- checks if double has decimal points.
-  
-to-do : LL 234
+// Fill array with a value
+Arrays.fill(arr, start, end, val);
+```
 
-BiFunction ??
-list??
-HashSet????
-HashMap??
-LinkedHashMap???
-arrays.fill(arr, start, end, val);????
-BIGintergers???????
-Longest Subsequence -------
+## Ceiling Division (Avoid floating-point)
 
-biotonic means "Initially a sequence of numbers is in incresing order; however, beyond a certain point, it begins to decrease."
+Instead of:
 
-binary serach:
-  arr[]= {1, 2, 3, 4, 5};
-  left = 0, right = arr.lenght-1, mid= (left+ right)>>>1;
-    if you want to add an element in sorted list take "right = arr.length". bcz it is possible that new element is maximum and it will added to last of the row.
-    but if you want to find an element in sorted list take "right= arr.length-1"
+```java
+int x = (int) Math.ceil(num / 2.0);
+```
 
-    NOTE:
-      Overflow can be occured while calculating mid value.
-      so use (left+ (right- left)/2) instead of (left+ right)/2 or (left+ right)>>>1.
-      it will avoid overflow situation for boundary values.
+Use:
 
-integer-wraparound:
-      When Overflow or Underflow occurs Java internal will wrap the integer range.
-      ex.,
-        char c= -128
-        c-=1;
-        Which will be -129 but it is out of char range.
-        So wrap-around will put 127 instead of giving error.
+```java
+int x = (num + 1) / 2;
+```
 
-        Same thing for.,
-        Char c= 127;
-        c+=1;
-        output: c: -128 because of wrap-around concept.
+### Integer Overflow and Underflow
 
-        This concept does not apply to floating data type because of significant bits.
+```java
+Integer.MAX_VALUE + 1   // Overflow  -> wraps to Integer.MIN_VALUE
+Integer.MIN_VALUE - 1   // Underflow -> wraps to Integer.MAX_VALUE
+```
 
-Overflow:   Integer.MAX_VALUE + 1   --> result value is too big to fit in Integer data type cause Overflow.
-Underflow:  Integer.MIN_VALUE - 1   --> result value is too small to fit in Integer data type cause Undeflow.
+### Integer Wrap-Around (char example)
 
-Lambda Expression:  
-    In java, lambda is a method which is part of interface.
+```java
+char c = -128;
+c -= 1;  // -> 127 (wraps around)
 
-    code 1: Created a function interface method in a class and use it in main class method.      
-      // functional interface means this interface can have only one method. if you try to include one more method it will show error. NOTE: you can include object methods like toString() method.
-      @FunctionalInterface 
-      interface A{
-        void call(); 
-        // this is interface's method. when a class implement this interface, the class must have to define method for it.
-      }
+char c = 127;
+c += 1;  // -> -128 (wraps around)
+```
 
-      class b implement a{
-        void call(){
-          System.out.println("calling method.");
-        }
-      }
+NOTE: Wrap-around does NOT apply to floating-point types due to how significant bits work.
 
-      class solution{
-        void main(){
-          a obj= new b();
-          b.call();   // --> prints "calling method."
-        }
-      }
+### Useful Checks
 
-    code2: inner class to use functional interface.
-      @FunctionalInterface 
-      interface A{
-        void call(); 
-      }
-      class Solution{
-        // user inner class to use interface
-        A obj = new A(){
-            public void show(){
-                System.out.println("Hello");
-            }
-        };
-        obj.show();
-      }
-    
-    code3: lambda function
-      @FunctionalInterface 
-      interface A{
-        void call(); 
-      }
-      class Solution{
-        A obj= ()-> System.out.println("Hello");
-        A.call();
-      }
+```java
+// Check if a double has no decimal part
+d % 1 == 0
+```
 
-Finds GCD - Greatest Common Divisor:
-      int gcd(int a, int b){
-        if(b == 0)
-            return a;
-        return gcd(b, a% b);
-      }
+### GCD - Greatest Common Divisor (Euclidean Algorithm)
 
-Linked list:
-      Use dummy node approach: 203. Remove Linked List Elements
+```java
+int gcd(int a, int b) {
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+}
+```
 
-????
-learn how heap, treeSet work internally?
+### Convert String or Binary digits to Hex, Binary or base-10 number
 
-Interview Tip:
-    > When there is repetative tasks, consider DP and precomputation.
-    url: <https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/>
+* As you read each left to right, you don't know a digit's true place value until you see what comes after it. So at every step, you multiply your running total by 10 (shifting everything left one column) and add the new digit.
 
-    > 
+* Try: `1290. Convert Binary Number in a Linked List to Integer`
+
+#### For String value `123` -> Decimal `123`
+
+| Step | Char | Operation | Running Total |
+|------|------|-----------|---------------|
+| 1 | `1` | 0 × 10 + 1 | 1 |
+| 2 | `2` | 1 × 10 + 2 | 12 |
+| 3 | `3` | 12 × 10 + 3 | 123 |
+
+#### For Binary number `1011` -> Decimal `11`
+
+| Step | Char | Operation | Running Total |
+|------|------|-----------|---------------|
+| 1 | `1` | 0 × 2 + 1 | 1 |
+| 2 | `0` | 1 × 2 + 0 | 2 |
+| 3 | `1` | 2 × 2 + 1 | 5 |
+| 4 | `1` | 5 × 2 + 1 | 11 |
+
+### Linked List
+
+* Dummy Node Approach is useful for edge cases such as head deletion.
+Reference: LeetCode 203 - Remove Linked List Elements
+
+## Binary Search
+
+```java
+int[] arr = {1, 2, 3, 4, 5};
+int left = 0;
+int right = arr.length - 1;   // use arr.length - 1 to FIND an element
+// int right = arr.length;    // use arr.length to INSERT into sorted list
+int mid = left + (right - left) / 2;
+```
+
+NOTE: Use left + (right - left) / 2 instead of (left + right) / 2 to avoid integer overflow at boundary values.
+
+### Lambda Expressions
+
+In Java, a lambda is a concise way to implement a FunctionalInterface.
+A FunctionalInterface can have only one abstract method. Object methods like toString() are allowed.
+
+### Evolution: Class to Anonymous Class to Lambda
+
+Step 1: Separate class
+
+```java
+@FunctionalInterface
+interface A {
+    void call();
+}
+
+class B implements A {
+    public void call() {
+        System.out.println("calling method.");
+    }
+}
+
+class Solution {
+    void main() {
+        A obj = new B();
+        obj.call(); // prints "calling method."
+    }
+}
+```
+
+Step 2: Anonymous inner class
+
+```java
+A obj = new A() {
+    public void call() {
+        System.out.println("Hello");
+    }
+};
+obj.call();
+```
+
+Step 3: Lambda (cleanest)
+
+```java
+A obj = () -> System.out.println("Hello");
+obj.call();
+```
+
+### Concepts and Definitions
+
+Bitonic Sequence: A sequence that is first strictly increasing and then strictly decreasing beyond a certain point.
+
+### Interview Tips
+
+When you see repetitive tasks, think DP and Precomputation.
+Reference: [https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/](https://leetcode.com/problems/range-sum-query-2d-immutable/solutions/2104317/dp-visualised-interview-tips/)
